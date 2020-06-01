@@ -1,0 +1,31 @@
+.carousel-inner {
+    height: 10rem;
+    width: auto;
+    margin-bottom: 2.5rem;
+}
+
+@media screen  and (min-width: 420px) {
+    .carousel-inner {
+    height: 15rem;
+    width: auto;}
+}
+@media screen and (min-width: 750px){
+    .carousel-inner {
+        height: 20rem;
+    }
+}
+@media screen and (min-width: 1000px){
+    .carousel-inner {
+        height: 25rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .carousel-inner {
+        height: 30rem;
+    }
+@media screen and (min-width: 1500px){
+    .carousel-inner {
+        height: 35rem;
+        }
+}
+}

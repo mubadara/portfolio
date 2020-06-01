@@ -1,0 +1,52 @@
+footer {
+    background: center/auto url(../img/star_pattern.svg);
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}
+footer .footer__copyright {
+    display: flex;
+    justify-content: center;
+    color: ivory;
+    padding-top: 1.5rem;
+    font-size: 20px
+}
+footer .footer__icons {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.footer__icons__list__copyright {
+    background: center/auto url(../img/star_pattern.svg);
+    font-size: 1rem;
+    color: ivory;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: -1rem;
+
+}
+.footer__icons__list__copyright a{
+    font-size: 1rem;
+    color: #625591;
+    text-decoration: underline; 
+    text-align: center;
+    font-style: italic;
+}
+.footer__icons__list img {
+    width: 40px;
+    height: 40px;
+}
+@media screen and (min-width: 750px){
+    footer {
+        background: center/auto url(../img/star_pattern.svg);
+        height: 15rem;
+        margin-bottom: -5rem;
+    }
+    .footer__icons__list img{  
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 50px;
+        height: 50px;
+    }
+}

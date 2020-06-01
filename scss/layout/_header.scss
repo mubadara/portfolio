@@ -1,0 +1,32 @@
+header {
+    height: 10rem;
+    background: center/100% url(../../portfolio/img/header.svg);
+}
+li{
+    display: inline;
+}
+a.nav-link {
+    position: relative;
+    left: 70%;
+    width: 35%;
+    color: black !important;
+    background-color: blanchedalmond !important;
+    text-align: center !important;
+    text-decoration: underline !important;
+    font-family: Roboto Mono !important;
+}
+
+@media screen and (min-width: 992px){
+    a.nav-link {
+        background: none !important;
+        color: #e4ccb8 !important;
+        font-size: 120% !important;
+        font-family: Roboto Mono !important;
+        width: auto !important;
+        position: relative;
+        left: 0%;
+    }
+    header {
+        height: 15rem;
+    }
+}

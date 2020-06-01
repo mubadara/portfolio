@@ -1,0 +1,41 @@
+@mixin icons {
+    height: 100%;
+    margin-top: 0.5rem;  
+}
+$main-color: #625591;
+body{
+    margin: 0;
+}
+body {
+    background: rgb(228,204,184);
+    background: linear-gradient(60deg, rgba(228,204,184,1) 0%, rgba(212,157,113,1) 100%);
+}
+h1, h2 {
+    font-family: Righteous;
+    color: $main-color;
+}
+h1 {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+h2 {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.about p {
+    font-family: Noto mono;
+}
+h4 {
+    font-family: Roboto Mono;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline ;
+    font-style: italic;
+    color: $main-color;
+    margin-bottom: 2.5rem;
+}
+h4 a {
+    color: $main-color;
+}
+
