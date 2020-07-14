@@ -2,35 +2,45 @@
     height: 100%;
     margin-top: 0.5rem;  
 }
-$main-color: #625591;
+$main-color: rgb(133, 111, 74);
 body{
     margin: 0;
 }
 body {
     background: rgb(228,204,184);
-    background: linear-gradient(60deg, rgba(228,204,184,1) 0%, rgba(212,157,113,1) 100%);
+    background: linear-gradient(60deg, rgba(228,204,184,1) 0%, rgb(224, 157, 102) 100%);
 }
 h1, h2 {
-    font-family: Righteous;
+    font-family: Monserrat;
     color: $main-color;
 }
 h1 {
     margin-top: 1rem;
     font-size: 3rem;
+    text-align: center;
+    font-size: 2rem;
 }
 h2 {
     text-align: center;
     margin-top: 2.5rem;
-    margin-bottom: 2.5rem;
+}
+.about {
+    box-sizing: border-box;
+    width: 90%;
+    text-align: center;
 }
 .about p {
     font-family: Noto mono;
+    padding: 2.5%;
+    background: rgb(231,181,104);
+    background: linear-gradient(30deg, rgba(231,181,104,1) 28%, rgba(230,200,103,1) 35%, rgba(218,190,93,1) 48%);
+    color: rgb(248, 239, 239);
 }
 h4 {
-    font-family: Roboto Mono;
+    font-family: Monserrat;
     text-align: center;
     font-size: 15px;
-    text-decoration: underline ;
+    text-decoration: underline;
     font-style: italic;
     color: $main-color;
     margin-bottom: 2.5rem;

@@ -1,10 +1,5 @@
-form {
-    margin-left: 1rem;  
-}
 textarea {
     resize: none;
-    color: rgba(0, 0, 0, 0.5);
-    width: 90%;
     height: 7.5rem;
     border-radius: 2%;
 }
@@ -16,23 +11,18 @@ textarea {
             width: 48%;
             height: auto;
             
-            border-radius: 5%;
         }
         &--name {
             width: 48%;
             height: auto;
-            border-radius: 5%;
         }
         &--object {
-            width: 90%;
             height: auto;
             margin-bottom: 0.5rem;
-            border-radius: 5%;
         }
 }
 
 .contact__form__input--align {
-    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
