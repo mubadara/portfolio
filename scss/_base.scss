@@ -3,8 +3,10 @@
     margin-top: 0.5rem;  
 }
 $main-color: rgb(133, 111, 74);
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     background: rgb(228,204,184);
@@ -22,7 +24,7 @@ h1 {
 }
 h2 {
     text-align: center;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
 }
 .about {
     box-sizing: border-box;
@@ -47,5 +49,15 @@ h4 {
 }
 h4 a {
     color: $main-color;
+}
+@media screen and (min-width: 820px){
+    .about {
+        width: 75%;
+    }
+}
+@media screen and (min-width: 900px){
+    .about {
+        width: 60%;
+    }
 }
 

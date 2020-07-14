@@ -6,3 +6,15 @@
     margin-top: 0.5rem;
     border: none;
 }
+.btn:hover {
+    background-color: rgb(235,189,107);
+    border: none;
+}
+.btn:active {
+    background-color: rgb(235,189,107) !important;
+    border: none !important;
+}
+.btn:visited {
+    background-color: rgb(235,189,107) !important;
+    border: none !important;
+}

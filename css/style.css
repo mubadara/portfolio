@@ -1,5 +1,7 @@
-body {
-  margin: 0; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   background: #e4ccb8;
@@ -17,7 +19,7 @@ h1 {
 
 h2 {
   text-align: center;
-  margin-top: 2.5rem; }
+  margin-top: 1rem; }
 
 .about {
   box-sizing: border-box;
@@ -43,10 +45,16 @@ h4 {
 h4 a {
   color: #856f4a; }
 
+@media screen and (min-width: 820px) {
+  .about {
+    width: 75%; } }
+
+@media screen and (min-width: 900px) {
+  .about {
+    width: 60%; } }
+
 textarea {
-  resize: none;
-  height: 7.5rem;
-  border-radius: 2%; }
+  resize: none; }
 
 .contact__form__input::placeholder {
   opacity: 0.5; }
@@ -70,39 +78,14 @@ textarea {
   margin-top: 0.5rem;
   box-sizing: border-box; }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   textarea {
-    height: 10rem; } }
+    height: 7.5rem !important; } }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   form {
-    text-align: center; }
-  .contact__form__input--align {
-    margin-left: 4.5rem; } }
-
-@media screen and (min-width: 1500px) and (min-width: 1500px) {
-  form {
-    text-align: center; }
-  .contact__form__input--align {
-    margin-left: 5rem; } }
-
-@media screen and (min-width: 1500px) and (min-width: 1700px) {
-  form {
-    text-align: center; }
-  .contact__form__input--align {
-    margin-left: 5.3rem; } }
-
-@media screen and (min-width: 1800px) {
-  form {
-    text-align: center; }
-  .contact__form__input--align {
-    margin-left: 5.5rem; } }
-
-@media screen and (min-width: 1800px) and (min-width: 1900px) {
-  form {
-    text-align: center; }
-  .contact__form__input--align {
-    margin-left: 5.9rem; } }
+    width: 95%;
+    margin-left: 2.5%; } }
 
 .knowledges__grid {
   display: grid;
@@ -127,82 +110,21 @@ textarea {
   height: 55px; }
 
 @media screen and (min-width: 400px) {
-  .knowledges__grid__icons {
-    padding: 1rem; } }
-
-@media screen and (min-width: 500px) {
-  .knowledges__grid__icons {
-    padding: 1.5rem; } }
-
-@media screen and (min-width: 550px) {
-  .knowledges__grid__icons {
-    padding: 2rem; } }
-
-@media screen and (min-width: 580px) {
-  .knowledges__grid__icons {
-    padding: 2.5rem; }
-  .knowledges__grid__icons img {
-    height: 65px;
-    width: 65px; } }
-
-@media screen and (min-width: 750px) {
-  .knowledges__grid__icons {
-    padding: 3rem; }
-  .knowledges__grid__icons img {
-    height: 75px;
-    width: 75px; } }
-
-@media screen and (min-width: 850px) {
-  .knowledges__grid__icons {
-    padding: 3.5rem; } }
-
-@media screen and (min-width: 900px) {
   .knowledges__grid {
-    display: flex; }
-  .knowledges__grid__icons {
-    padding: 1rem; } }
+    gap: 10%; } }
 
-@media screen and (min-width: 1000px) {
-  .knowledges__grid__icons {
-    padding: 1.5rem; } }
+@media screen and (min-width: 820px) {
+  .knowledges__grid {
+    box-sizing: border-box;
+    width: auto;
+    height: 50%;
+    grid-template-columns: auto auto;
+    gap: 20%;
+    margin-right: 20px; } }
 
-@media screen and (min-width: 1100px) {
-  .knowledges__grid__icons {
-    padding: 2rem; } }
-
-@media screen and (min-width: 1200px) {
-  .knowledges__grid__icons {
-    padding: 2.5rem; } }
-
-@media screen and (min-width: 1200px) and (min-width: 1450px) {
-  .knowledges__grid__icons {
-    padding: 3.5rem; }
-  .knowledges__grid__icons img {
-    width: 125%; }
-  .knowledges__grid__icons--jq {
-    width: 120% !important;
-    height: 120% !important; } }
-
-@media screen and (min-width: 1200px) and (min-width: 1500px) {
-  .knowledges__grid__icons {
-    padding: 3.5rem; }
-  .knowledges__grid__icons img {
-    width: 150%; }
-  .knowledges__grid__icons--jq {
-    width: 120% !important;
-    height: 120% !important; } }
-
-@media screen and (min-width: 1200px) and (min-width: 1700px) {
-  .knowledges__grid__icons img {
-    width: 150%; }
-  .knowledges__grid__icons {
-    padding: 4rem; } }
-
-@media screen and (min-width: 1200px) and (min-width: 1900px) {
-  .knowledges__grid__icons {
-    padding: 5rem; }
-  .knowledges__grid__icons img {
-    width: 150%; } }
+@media screen and (min-width: 820px) {
+  .grid {
+    display: flex; } }
 
 header {
   height: 10rem;
@@ -240,6 +162,18 @@ a.nav-link {
   font-family: roboto;
   margin-top: 0.5rem;
   border: none; }
+
+.btn:hover {
+  background-color: #ebbd6b;
+  border: none; }
+
+.btn:active {
+  background-color: #ebbd6b !important;
+  border: none !important; }
+
+.btn:visited {
+  background-color: #ebbd6b !important;
+  border: none !important; }
 
 .carousel-inner {
   height: 10rem;

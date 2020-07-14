@@ -1,7 +1,5 @@
 textarea {
     resize: none;
-    height: 7.5rem;
-    border-radius: 2%;
 }
 .contact__form__input::placeholder{
     opacity: 0.5;
@@ -30,45 +28,15 @@ textarea {
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 800px){
     textarea {
-        height: 10rem;
+        height: 7.5rem !important;
     }
 }
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1200px){
     form {
-        text-align: center;
+        width: 95%;
+        margin-left: 2.5%;
     }
-    .contact__form__input--align {
-        margin-left: 4.5rem;
-    }
-@media screen and (min-width: 1500px){
-    form {
-        text-align: center;
-        }
-    .contact__form__input--align {
-            margin-left: 5rem;
-        }}
-@media screen and (min-width: 1700px){
-    form {
-        text-align: center;
-                }
-    .contact__form__input--align {
-                    margin-left: 5.3rem;
-                }}
 }
-@media screen and (min-width: 1800px){
-    form {
-        text-align: center;
-    }
-    .contact__form__input--align {
-        margin-left: 5.5rem;
-    }
-@media screen and (min-width: 1900px){
-    form {
-        text-align: center;
-    }
-     .contact__form__input--align {
-        margin-left: 5.9rem;
-    }}
-}
+
